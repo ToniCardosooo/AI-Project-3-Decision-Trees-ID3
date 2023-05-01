@@ -37,7 +37,7 @@ public class Transform {
         }
 
         if (method.equals("sturges")){
-            long k = Math.round(3.322 * Math.log10(s.getSize()) + 1); // k represents the number of intervals
+            long num_intervals = Math.round(3.322 * Math.log10(s.getSize()) + 1); // k represents the number of intervals
 
             Double minimo = Double.MAX_VALUE, maximo = Double.MIN_VALUE;
             for (Object obj : s.getDataList()){
@@ -45,15 +45,20 @@ public class Transform {
                 maximo = Math.max(maximo, (Double)obj);
             }
 
-            double amplitude = (maximo - minimo) / k;
+            double amplitude = (maximo - minimo) / num_intervals;
             amplitude = Math.round(amplitude * 100) / 100.0; // round to 2 decimals
-            ArrayList<String> intervals = new ArrayList<String>();
-            for (int i = 0; i < k+1; i++){
-                if (i == k) intervals.add(String.valueOf(maximo));
-                else intervals.add(String.valueOf(minimo + i * amplitude));
-            }
+            
+            s.getUniqueValues().clear();
+            for (int i = 0; i < s.getSize(); i++){
+                double value = (Double) s.getValue(i);
+                long k = Math.round((value - minimo) / amplitude);
+                double lim_inf = Math.round((minimo + k*amplitude) * 100) / 100.0;
+                double lim_sup = Math.round((minimo + (k+1)*amplitude) * 100) / 100.0;
 
-            /* TO KEEP WORKING */
+                String interval = "[" + lim_inf + " , " + lim_sup + "[";
+                s.setValue(i, interval);
+                s.getUniqueValues().add(interval);
+            }
 
             return;
         }
