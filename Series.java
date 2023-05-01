@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 
 public class Series {
@@ -33,15 +34,16 @@ public class Series {
         if (data.get(0) instanceof Double) return "double";
         return "string";
     }
+    public Object getValue(int index){return data.get(index);}
+
+    // Setters
+    public void setValue(int index, Object obj){data.set(index, obj);}
 
     // To add an element to the end of the Series
     public void add(Object obj){
         data.add(obj);
         unique_values.add(obj);
     }
-
-    // To get the value of a row in the Series
-    public Object getValue(int index){return data.get(index);}
 
     // For printing
     @Override
@@ -59,14 +61,19 @@ public class Series {
             return null;
 
         // at this point, data type == double
+        ArrayList<Double> tmp = new ArrayList<Double>();
+        for (int i = 0; i < data.size(); i++)
+            tmp.add((Double)data.get(i));
+        Collections.sort(tmp);
+
         if (getSize() % 2 == 1){
-            return (Double)data.get(getSize()/2);
+            return tmp.get(getSize()/2);
         }
         // else
-        double tmp1 = (Double)data.get(getSize()/2 - 1);
-        double tmp2 = (Double)data.get(getSize()/2);
-        double tmp = (tmp1 + tmp2) / 2.0;
-        return tmp;
+        double tmp1 = tmp.get(getSize()/2 - 1);
+        double tmp2 = tmp.get(getSize()/2);
+        double median = (tmp1 + tmp2) / 2.0;
+        return median;
     }
 
     // To get the mean value of a numerical series
@@ -79,7 +86,9 @@ public class Series {
         int size = data.size();
         for (int i = 0; i < size; i++)
             sum += (Double)data.get(i);
-        return sum/size;
+        Double mean = sum/size;
+        // 2 decimal cases of precision
+        return Math.round(mean * 100)/100.0;
     }
 
 }
