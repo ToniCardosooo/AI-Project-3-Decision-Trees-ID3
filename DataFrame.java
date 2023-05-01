@@ -2,8 +2,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;  
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 
 public class DataFrame{
 
@@ -11,60 +9,34 @@ public class DataFrame{
 
     private int num_columns;
     private int num_rows;
-
-    private ArrayList<ArrayList<Object>> table; // a list containing the rows (implemented by another list) with their respective data in each row
-    private ArrayList<ArrayList<Object>> columns; // a list containing the columns (implemented by another list) with their respective data in each column
-
-    // related to the columns
+    private ArrayList<Series> table; // a list containing Series (implemented by another list) with their respective data in each row
     private ArrayList<String> column_names;
-    private HashMap<String, Integer> column_name_to_index;
-    private ArrayList<HashSet<Object>> columns_unique_values;
 
     // Constructor ----------------------------------------------------------------------
 
     DataFrame(){
         num_columns = 0;
         num_rows = 0;
-
-        table = new ArrayList<ArrayList<Object>>();
-        columns = new ArrayList<ArrayList<Object>>();
-
+        table = new ArrayList<Series>();
         column_names = new ArrayList<String>();
-        column_name_to_index = new HashMap<String, Integer>();
-        columns_unique_values = new ArrayList<HashSet<Object>>();
     }
 
     // Getters ----------------------------------------------------------------------
 
     public int getNumberColumns(){return num_columns;}
     public int getNumberRows(){return num_rows;}
-
-    public ArrayList<ArrayList<Object>> getTable(){return table;}
-
-    public ArrayList<ArrayList<Object>> getColumns(){return columns;}
-    public ArrayList<String> getColumnNames(){return column_names;}
-
-    public int getColumnIndex(String col_name){return column_name_to_index.get(col_name);}
-
-    public ArrayList<Object> getColumn(int col_index){return columns.get(col_index);}
-    public ArrayList<Object> getColumn(String col_name){return columns.get(getColumnIndex(col_name));}
-
-    public HashSet<Object> getUniqueValues(int col_index){return columns_unique_values.get(col_index);}
-    public HashSet<Object> getUniqueValues(String col_name){return columns_unique_values.get(getColumnIndex(col_name));}
+    public ArrayList<Series> getTable(){return table;}
+    public Series getColumn(int col_index){return table.get(col_index);}
 
     // Function to convert a string into a object of type Integer or Double if the string holds any integer or real numerical value ---------------------------------
 
     private Object convertToRepresentedType(String str){
         try {
-            int intValue = Integer.parseInt(str);
-            return intValue;
-        } catch (NumberFormatException e) {
-            try {
-                double doubleValue = Double.parseDouble(str);
-                return doubleValue;
-            } catch (NumberFormatException ex) {
-                return str;
-            }
+            double doubleValue = Double.parseDouble(str);
+            return doubleValue;
+        }
+        catch (NumberFormatException e) {
+            return str;
         }
     }
 
@@ -85,27 +57,19 @@ public class DataFrame{
             // create the containers for each column and the set of unique values for each column
             for (int i = 0; i < num_columns; i++){
                 column_names.add(col_names[i]);
-                column_name_to_index.put(col_names[i], i);
-
-                ArrayList<Object> new_col = new ArrayList<Object>();
-                columns.add(new_col);
-
-                HashSet<Object> unique = new HashSet<Object>();
-                columns_unique_values.add(unique);
+                Series new_col = new Series(col_names[i]);
+                table.add(new_col);
             }
 
             // read the data
             while ((line = br.readLine()) != null){
-                ArrayList<Object> row = new ArrayList<Object>();
-                String info[] = line.split(splitBy);
+                String row[] = line.split(splitBy);
                 for (int i = 0; i < num_columns; i++){
-                    row.add(convertToRepresentedType(info[i]));
-                    columns.get(i).add(convertToRepresentedType(info[i]));
-                    columns_unique_values.get(i).add(convertToRepresentedType(info[i]));
+                    table.get(i).add(convertToRepresentedType(row[i]));
                 }
-                table.add(row);
             }
-            num_rows = table.size();
+            num_rows = table.get(0).getSize();
+
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -121,15 +85,53 @@ public class DataFrame{
             out += '\t' + name;
         }
         out += '\n';
-        for (ArrayList<Object> row : table){
-            for (Object o : row){
-                out += '\t' + o.toString();
+        for (int i = 0; i < num_rows; i++){
+            for (Series s : table){
+                out += '\t' + s.getValue(i).toString();
             }
             out += '\n';
         }
         return out;
     }
 
-    // Other ----------------------------------------------------------------------
+    // For filtering ----------------------------------------------------------------------
+
+    // Get a new DataFrame with the rows given by the list of row indexes as argument
+    public DataFrame filterRows(ArrayList<Integer> row_indexes){
+        DataFrame filtered = new DataFrame();
+        for (int i = 0; i < this.num_columns; i++){
+            filtered.table.add(new Series(this.column_names.get(i)));
+            filtered.column_names.add(this.column_names.get(i));
+        }
+        filtered.num_columns = this.num_columns;
+        
+        for (int row_id : row_indexes){
+            if (row_id < 0 || row_id >= this.num_rows)
+                continue;
+            for (int i = 0; i < this.num_columns; i++){
+                filtered.table.get(i).add(
+                    this.table.get(i).getValue(row_id)
+                );
+            }
+        }
+        filtered.num_rows = row_indexes.size();
+
+        return filtered;
+    }
+
+    // Get a new DataFrame with the columns given by the list of column indexes as argument
+    public DataFrame filterColumns(ArrayList<Integer> col_indexes){
+        DataFrame filtered = new DataFrame();
+        for (int col_id : col_indexes){
+            if (col_id < 0 || col_id >= this.num_columns)
+                continue;
+            filtered.table.add(this.table.get(col_id));
+            filtered.column_names.add(this.column_names.get(col_id));
+            filtered.num_columns++;
+        }
+        filtered.num_rows = this.table.get(0).getSize();
+
+        return filtered;
+    }
 
 }
