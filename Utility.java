@@ -92,8 +92,8 @@ public class Utility {
         }
         */
 
-        // Method inspired in the function "train_test_split" from the python's library "sklearn.model_selection"
-        public static ArrayList<DataFrame> getTrainTest(DataFrame data, double test_size){   
+        // method inspired in the function "train_test_split" from the python's library "sklearn.model_selection"
+        public static ArrayList<DataFrame> getTrainTestDataFrames(DataFrame data, double test_size){   
             Object target_classes[] = data.getColumn(data.getNumberColumns()-1).getUniqueValues().toArray();
             ArrayList<ArrayList<Integer>> target_classes_indexes = new ArrayList<>();
             for (int i = 0; i < target_classes.length; i++)
@@ -113,8 +113,9 @@ public class Utility {
             for (ArrayList<Integer> indexes : target_classes_indexes){
                 Collections.shuffle(indexes);
                 long test_index_limit = Math.round(indexes.size() * test_size);
+                System.out.println(test_index_limit);
                 for (int i = 0; i < indexes.size(); i++){
-                    if (i <= test_index_limit) testing_indexs.add(indexes.get(i));
+                    if (i < test_index_limit) testing_indexs.add(indexes.get(i));
                     else training_indexs.add(indexes.get(i));
                 }
             }
@@ -125,6 +126,55 @@ public class Utility {
             ArrayList<DataFrame> sets = new ArrayList<DataFrame>();
             sets.add(training); sets.add(testing);
             return sets;
+        }
+
+        // method to get the predicting columns from a dataframe
+        public static DataFrame getPredictor(DataFrame data){
+            // we assume that data's 1st column is the ID column and the
+            // last column is the target variable column
+            ArrayList<Integer> pred_indexes = new ArrayList<>();
+            for (int i = 1; i < data.getNumberColumns()-1; i++)
+                pred_indexes.add(i);
+            return data.filterColumns(pred_indexes);
+        }
+
+        // method to get the target column from a dataframe
+        public static Series getTarget(DataFrame data){
+            return data.getColumn(data.getNumberColumns()-1);
+        }
+    }
+
+    // ====================================================================
+
+    static class Entropy{
+        private static double log2(double x){
+            if (x == 0) return 0;
+            return Math.log(x) / Math.log(2);
+        }
+
+        public static double getEntropy(Series s){
+            Object unique_values[] = s.getUniqueValues().toArray();
+            double probs[] = new double[s.getUniqueValues().size()];
+            for (int i = 0; i < s.getSize(); i++){
+                for (int j = 0; j < unique_values.length; j++){
+                    if (s.getValue(i).equals(unique_values[j]))
+                        probs[j]++;
+                }
+            }
+
+            for (double p : probs)
+                System.out.println(p);
+
+            for (int i = 0; i < probs.length; i++)
+                probs[i] /= s.getSize();
+
+            double entr = 0.0;
+            for (double p : probs) entr += p * log2(p);
+            return -1.0 * entr;
+        }
+
+        public static double getEntropy(Series s, int col){
+            return 0.0;
         }
     }
 }
