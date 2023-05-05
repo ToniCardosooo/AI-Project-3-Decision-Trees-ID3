@@ -42,6 +42,7 @@ public class DataFrame{
 
     // Turn the data in a CSV file to a DataFrame object ----------------------------------------------------------------------
 
+    // ler CSVs
     public void readCSV(String file_path){
         try {
             String splitBy = ",";
