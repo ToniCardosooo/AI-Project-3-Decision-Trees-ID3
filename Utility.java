@@ -74,23 +74,6 @@ public class Utility {
     // ====================================================================
 
     static class ModelSelection{
-        /* 
-        public static ArrayList<Series> getSeriesForEachClass(Series column){
-            Object classes_values[] = column.getUniqueValues().toArray();
-            ArrayList<Series> classes_series = new ArrayList<>();
-            for (int i = 0; i < classes_values.length; i++)
-                classes_series.add(new Series(classes_values[i].toString()));
-            
-            for (int i = 0; i < column.getSize(); i++){
-                for (int j = 0; j < classes_values.length; j++){
-                    if (column.getValue(i).equals(classes_values[j]))
-                        classes_series.get(j).add(column.getValue(i));
-                }
-            }
-            
-            return classes_series;
-        }
-        */
 
         // method inspired in the function "train_test_split" from the python's library "sklearn.model_selection"
         public static ArrayList<DataFrame> getTrainTestDataFrames(DataFrame data, double test_size){   

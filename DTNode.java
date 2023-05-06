@@ -17,20 +17,20 @@ public class DTNode {
     // Constructor ------------------------------------------
 
     // constructor for non-leaf node
-    DTNode(String attribute, DTNode p, Object v){
+    DTNode(String attribute, DTNode p, Object pv){
         node_attribute = attribute;
         classification = null;
         parent = p;
-        value = v;
+        parent_value = pv;
         children = new HashMap<Object, DTNode>();
     }
 
     // constructor for leaf node
-    DTNode(Object c, DTNode p, Object v){
+    DTNode(Object c, DTNode p, Object pv){
         node_attribute = null;
         classification = c;
         parent = p;
-        value = v;
+        parent_value = pv;
         children = null;
     }
 

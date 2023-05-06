@@ -135,8 +135,18 @@ public class DataFrame{
         return filtered;
     }
 
+    public DataFrame filterBySpecificAttributeValue(int att_id, Object att_value){
+        ArrayList<Integer> filtered_id = new ArrayList<Integer>();
+        Series att = table.get(att_id);
+        for (int i = 0; i < att.getSize(); i++)
+            if (att.getValue(i).equals(att_value))
+                filtered_id.add(i);
+        
+        return filterRows(filtered_id);
+    }
+
     // DataFrame columns manipulation ----------------------------------------------------------------------
-    
+
     public void addColumn(int col_index, Series col){table.add(col_index, col);}
     public void removeColumn(int col_index){table.remove(col_index);}
 
