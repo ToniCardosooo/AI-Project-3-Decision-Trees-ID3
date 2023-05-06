@@ -145,7 +145,7 @@ public class Utility {
 
     // ====================================================================
 
-    static class Entropy{
+    static class Metrics{
         private static double log2(double x){
             if (x == 0) return 0;
             return Math.log(x) / Math.log(2);

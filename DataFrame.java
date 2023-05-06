@@ -135,4 +135,9 @@ public class DataFrame{
         return filtered;
     }
 
+    // DataFrame columns manipulation ----------------------------------------------------------------------
+    
+    public void addColumn(int col_index, Series col){table.add(col_index, col);}
+    public void removeColumn(int col_index){table.remove(col_index);}
+
 }
