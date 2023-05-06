@@ -113,7 +113,6 @@ public class Utility {
             for (ArrayList<Integer> indexes : target_classes_indexes){
                 Collections.shuffle(indexes);
                 long test_index_limit = Math.round(indexes.size() * test_size);
-                System.out.println(test_index_limit);
                 for (int i = 0; i < indexes.size(); i++){
                     if (i < test_index_limit) testing_indexs.add(indexes.get(i));
                     else training_indexs.add(indexes.get(i));
@@ -152,7 +151,7 @@ public class Utility {
             return Math.log(x) / Math.log(2);
         }
 
-        public static double getEntropy(Series s){
+        private static double[] getProbabilities(Series s){
             Object unique_values[] = s.getUniqueValues().toArray();
             double probs[] = new double[s.getUniqueValues().size()];
             for (int i = 0; i < s.getSize(); i++){
@@ -162,19 +161,42 @@ public class Utility {
                 }
             }
 
-            for (double p : probs)
-                System.out.println(p);
-
             for (int i = 0; i < probs.length; i++)
                 probs[i] /= s.getSize();
+            
+            return probs;
+        }
 
+        public static double getEntropy(Series target){
+            double probs[] = getProbabilities(target);
             double entr = 0.0;
             for (double p : probs) entr += p * log2(p);
             return -1.0 * entr;
         }
 
-        public static double getEntropy(Series s, int col){
-            return 0.0;
+        public static double getEntropy(Series target, Series attribute){
+            Object unique_values_attribute[] = attribute.getUniqueValues().toArray();
+            double probs_attribute[] = getProbabilities(attribute);
+            double entr = 0.0;
+
+            // for each possible value in attribute calculate the entropy
+            // of target restrained to the examples with those values
+            for (int i = 0; i < unique_values_attribute.length; i++){
+
+                // get the target values within the new domain
+                Series unique_attribute_target = new Series("");
+                for (int j = 0; j < target.getSize(); j++)
+                    if (attribute.getValue(j).equals(unique_values_attribute[i]))
+                        unique_attribute_target.add(target.getValue(j));
+
+                entr += probs_attribute[i] * getEntropy(unique_attribute_target);
+            }
+
+            return entr;
+        }
+
+        public static double getGain(Series target, Series attribute){
+            return (getEntropy(target) - getEntropy(target, attribute));
         }
     }
 }
