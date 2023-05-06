@@ -60,7 +60,8 @@ public class DecisionTree {
         for (Object value : highest_gain_att_values){
             DataFrame exs = examples.filterBySpecificAttributeValue(highest_gain_att_id, value);
             Node child = learnDecisionTree(
-                exs, attributes_id.remove(highest_gain_att_id),
+                exs,
+                attributes_id.remove(highest_gain_att_id),
                 examples,
                 node,
                 value
