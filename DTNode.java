@@ -49,4 +49,16 @@ public class DTNode {
 
     public void addChild(Object attribute_value, DTNode child){children.put(attribute_value, child);}
 
+    // Printing ------------------------------------------
+
+    @Override
+    public String toString(){
+        String out = "";
+        if (parent != null) out += "Parent decision: " + parent_value.toString() + '\n';
+        if (!isLeaf()) out += "Attribute: " + node_attribute + '\n';
+        else out += "Classification: " + classification.toString() + '\n';
+        
+        return out;
+    }
+
 }
