@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;  
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class DataFrame{
 
@@ -42,7 +43,6 @@ public class DataFrame{
 
     // Turn the data in a CSV file to a DataFrame object ----------------------------------------------------------------------
 
-    // ler CSVs
     public void readCSV(String file_path){
         try {
             String splitBy = ",";
@@ -82,14 +82,13 @@ public class DataFrame{
     @Override
     public String toString(){
         String out = "";
-        for (String name : column_names){
+        for (String name : column_names)
             out += '\t' + name;
-        }
         out += '\n';
+
         for (int i = 0; i < num_rows; i++){
-            for (Series s : table){
+            for (Series s : table)
                 out += '\t' + s.getValue(i).toString();
-            }
             out += '\n';
         }
         return out;

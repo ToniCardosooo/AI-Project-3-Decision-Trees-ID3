@@ -58,8 +58,11 @@ public class Utility {
                     long k = Math.round((value - minimo) / amplitude);
                     double lim_inf = Math.round((minimo + k*amplitude) * 100) / 100.0;
                     double lim_sup = Math.round((minimo + (k+1)*amplitude) * 100) / 100.0;
-    
-                    String interval = "[" + lim_inf + " , " + lim_sup + "[";
+                    
+                    String interval = "";
+                    if (lim_inf <= minimo/*  && minimo <= lim_sup */) interval = "<= " + lim_sup;
+                    else if (/* lim_inf <= maximo &&  */maximo < lim_sup) interval = ">= " + lim_inf;
+                    else interval = "[" + lim_inf + " , " + lim_sup + "[";
                     s.setValue(i, interval);
                     s.getUniqueValues().add(interval);
                 }
@@ -115,7 +118,7 @@ public class Utility {
             // we assume that data's 1st column is the ID column and the
             // last column is the target variable column
             ArrayList<Integer> pred_indexes = new ArrayList<>();
-            for (int i = 1; i < data.getNumberColumns()-1; i++)
+            for (int i = 0; i < data.getNumberColumns()-1; i++)
                 pred_indexes.add(i);
             return data.filterColumns(pred_indexes);
         }
@@ -180,6 +183,15 @@ public class Utility {
 
         public static double getGain(Series target, Series attribute){
             return (getEntropy(target) - getEntropy(target, attribute));
+        }
+
+        public static double getAccuracy(Series target_true, Series target_pred){
+            double accuracy = 0.0;
+            for (int i = 0; i < target_true.getSize(); i++)
+                if (target_true.getValue(i).equals(target_pred.getValue(i)))
+                    accuracy++;
+            accuracy /= target_true.getSize();
+            return accuracy;
         }
     }
 }

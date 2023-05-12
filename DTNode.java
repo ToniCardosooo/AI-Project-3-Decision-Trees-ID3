@@ -8,6 +8,7 @@ public class DTNode {
         private String node_attribute;
     // if is leaf
         private Object classification;
+        private int count;
 
     // attributs parent / children wise
     private DTNode parent;
@@ -20,15 +21,17 @@ public class DTNode {
     DTNode(String attribute, DTNode p, Object pv){
         node_attribute = attribute;
         classification = null;
+        count = -1;
         parent = p;
         parent_value = pv;
         children = new HashMap<Object, DTNode>();
     }
 
     // constructor for leaf node
-    DTNode(Object c, DTNode p, Object pv){
+    DTNode(Object c, int count_, DTNode p, Object pv){
         node_attribute = null;
         classification = c;
+        count = count_;
         parent = p;
         parent_value = pv;
         children = null;
@@ -38,6 +41,7 @@ public class DTNode {
 
     public String getNodeAttribute(){return node_attribute;}
     public Object getClassification(){return classification;}
+    public Object getCount(){return count;}
     public DTNode getParent(){return parent;}
     public Object getParentValue(){return parent_value;}
     public HashMap<Object, DTNode> getChildren(){return children;}
@@ -56,8 +60,9 @@ public class DTNode {
         String out = "";
         if (parent != null) out += "Parent decision: " + parent_value.toString() + '\n';
         if (!isLeaf()) out += "Attribute: " + node_attribute + '\n';
-        else out += "Classification: " + classification.toString() + '\n';
-        
+        else{
+            out += "Classification: " + classification.toString() + "; Count: " + count + '\n';
+        }
         return out;
     }
 
