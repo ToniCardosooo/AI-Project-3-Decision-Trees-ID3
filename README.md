@@ -10,7 +10,7 @@ O seu principal objetivo é a implementação do algoritmo ID3, de construção 
 
 Para tal, foi escolhida a linguagem Java, devido à sua relação com Programação Orientada a Objetos, o facto de ser *strongly-typed*, o seu "*Garbage Collector*", entre outros motivos.
 
-O programa foi desenvolvido e testado em *Ubuntu 20.04 LTS* com *javac 11.0.17*.
+O programa foi desenvolvido e testado em *Ubuntu 20.04.5 LTS* com *javac 11.0.17*.
 
 A pasta `CSV` possui 4 ficheiros `.csv` que podem ser usados para treinar uma árvore de decisão com a implementação encontrada neste repositório.
 
