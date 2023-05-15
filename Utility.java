@@ -68,14 +68,14 @@ public class Utility {
                 for (int i = 0; i < s.getSize(); i++){
                     // get the lower and upper limit
                     double value = (Double) s.getValue(i);
-                    long k = Math.round((value - minimo) / amplitude);
+                    int k = (int)((value - minimo) / amplitude);
                     double lim_inf = Math.round((minimo + k*amplitude) * 100) / 100.0;
                     double lim_sup = Math.round((minimo + (k+1)*amplitude) * 100) / 100.0;
                     
                     // swap the value by its corresponding interval
                     String interval = "";
-                    if (lim_inf <= minimo) interval = "<= " + lim_sup;
-                    else if (maximo < lim_sup) interval = ">= " + lim_inf;
+                    if (value < minimo) interval = "< " + minimo;
+                    else if (value >= maximo) interval = ">= " + maximo;
                     else interval = "[" + lim_inf + " , " + lim_sup + "[";
                     s.setValue(i, interval);
                     s.getUniqueValues().add(interval);
