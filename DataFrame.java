@@ -134,14 +134,14 @@ public class DataFrame{
         return filtered;
     }
 
-    // Get a DataFrame with the examples that have "att_value" in the "att_id" column
-    // This method also takes the "att_id" column away
+    // Return a DataFrame with the examples that have "att_value" in the "att_id" column
+    // This method also erases the "att_id" column
     public DataFrame filterBySpecificAttributeValue(int att_id, Object att_value){
         ArrayList<Integer> filtered_id = new ArrayList<Integer>();
         Series att = table.get(att_id);
         for (int i = 0; i < att.getSize(); i++)
             if (att.getValue(i).equals(att_value))
-                filtered_id.add(i);
+               filtered_id.add(i);
         
         DataFrame filtered = filterRows(filtered_id);
         filtered.removeColumn(att_id);

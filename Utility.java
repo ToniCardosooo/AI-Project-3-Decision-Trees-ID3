@@ -4,6 +4,7 @@ import java.util.Collections;
 
 public class Utility {
 
+    // class with method to encode continuos values into categorical ones
     static class Encoding {
 
         // transforms a series of numerical data into a series of categorical data
@@ -11,7 +12,9 @@ public class Utility {
             if (s.getDataType().equals("string"))
                 return;
     
-            // all transformations below will only apply to numerical values (double)
+            // all transformations below will only apply to numerical values (double type)
+
+            // replaces every data with "< median_value" or ">= median_value"
             if (method.equals("median")){
                 double median = s.getNumericalMedian();
                 String lower_class = "<" + median + " (median)"; 
@@ -25,6 +28,7 @@ public class Utility {
                 return;
             }
     
+            // replaces every data with "< mean_value" or ">= mean_value"
             if (method.equals("mean")){
                 double mean = s.getNumericalMean();
                 String lower_class = "<" + mean + " (mean)"; 
@@ -39,9 +43,14 @@ public class Utility {
                 }
                 return;
             }
-    
+            
+            /*
+             * this method gives a value to each data based on which interval they are on
+             * all intervals have the same amplitude and precision of 2 decimal cases
+             * the number of intervals, k, for a data set with n examples, follows the "Sturges' rule" -> k = log_2(n) + 1 (the value is rounded to an integer)
+             */
             if (method.equals("sturges")){
-                long num_intervals = Math.round(3.322 * Math.log10(s.getSize()) + 1); // k represents the number of intervals
+                long num_intervals = Math.round(3.322 * Math.log10(s.getSize()) + 1);
     
                 Double minimo = Double.MAX_VALUE, maximo = Double.MIN_VALUE;
                 for (Object obj : s.getDataList()){
@@ -53,6 +62,8 @@ public class Utility {
                 amplitude = Math.round(amplitude * 100) / 100.0; // round to 2 decimals
                 
                 s.getUniqueValues().clear();
+
+                
                 for (int i = 0; i < s.getSize(); i++){
                     double value = (Double) s.getValue(i);
                     long k = Math.round((value - minimo) / amplitude);
@@ -60,8 +71,8 @@ public class Utility {
                     double lim_sup = Math.round((minimo + (k+1)*amplitude) * 100) / 100.0;
                     
                     String interval = "";
-                    if (lim_inf <= minimo/*  && minimo <= lim_sup */) interval = "<= " + lim_sup;
-                    else if (/* lim_inf <= maximo &&  */maximo < lim_sup) interval = ">= " + lim_inf;
+                    if (lim_inf <= minimo) interval = "<= " + lim_sup;
+                    else if (maximo < lim_sup) interval = ">= " + lim_inf;
                     else interval = "[" + lim_inf + " , " + lim_sup + "[";
                     s.setValue(i, interval);
                     s.getUniqueValues().add(interval);
