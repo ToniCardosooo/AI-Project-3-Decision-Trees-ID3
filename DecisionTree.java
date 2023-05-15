@@ -20,6 +20,7 @@ public class DecisionTree {
 
     // Methods -------------------------------------
 
+    // returns the most common value in a given Series object
     private Object getMostFrequentValue(Series s){
         HashSet<Object> unique = s.getUniqueValues();
         int highest_freq = -1;
@@ -47,9 +48,11 @@ public class DecisionTree {
             classification,
             Collections.frequency(target.getDataList(), classification),
             parent_node,
-            parent_value);
+            parent_value
+        );
     }
 
+    // returns the index of the attribute list that indicates the attribute with highest gain of information
     private int getAttributeHighestGain(DataFrame examples, ArrayList<Integer> attributes_id){
         Series example_target = Utility.ModelSelection.getTarget(examples);
         int highest_gain_att_id = -1;
@@ -79,23 +82,30 @@ public class DecisionTree {
         if (example_target.getUniqueValues().size() == 1)
             return pluralityValue(examples, parent_node, parent_value);
         
-        // else (recursive case)
+        // else
+        // (recursive case)
+
         int highest_gain_att_id = getAttributeHighestGain(examples, attributes_id);
+        // new internal tree node where conditional attribute is the attribute which has higest information gain
         DTNode node = new DTNode(
             examples.getColumn(highest_gain_att_id).getName(),
             parent_node,
             parent_value
         );
+        // gathering the attribute's unique values
         HashSet<Object> highest_gain_att_values = unique_values_per_attribute.get(
             examples.getColumn(highest_gain_att_id).getName()
         );
         
         for (Object value : highest_gain_att_values){
+            // reduced dataset with the examples where "highest info gain attribute" == value
             DataFrame exs = examples.filterBySpecificAttributeValue(highest_gain_att_id, value);
             
+            // get new list of indexes to the remaining attributes
             ArrayList<Integer> new_attributes_id = new ArrayList<>();
             for (int i = 0; i < attributes_id.size()-1; i++) new_attributes_id.add(i);
 
+            // generate child node associated to "value" in the "highest info gain attribute" condition
             DTNode child = learnDecisionTree(
                 exs,
                 new_attributes_id,
@@ -106,6 +116,7 @@ public class DecisionTree {
             );
             node.addChild(value, child);
         }
+
         return node;
     }
 
@@ -129,28 +140,36 @@ public class DecisionTree {
 
     // Predict method -------------------------------------
 
-    // data_to_predict has no target value
-    // data_to_predict has the same preprocessing as the fitting_data DataFrame in the fit function
+    /*
+     * data_to_predict has no target value
+     * data_to_predict has the same preprocessing as the fitting_data DataFrame in the fit function
+     */
+
     public Series predict(DataFrame data_to_predict){
         // get each column's index
         HashMap<String, Integer> col_name_to_index = new HashMap<>();
         for (int i = 0; i < data_to_predict.getNumberColumns(); i++)
             col_name_to_index.put(data_to_predict.getColumn(i).getName(), i);
         
+        // create new Series to hold the predicted values for each example in "data_top_predict"
         Series prediction = new Series("Predicted Class");
         for (int row = 0; row < data_to_predict.getNumberRows(); row++){
             DTNode cur = root;
+
+            // go down the Decision Tree until the example is classified
+            // if a decision is not made, it returns the most common target value in the training dataset
             while (cur != null && !cur.isLeaf()){
                 int col_index = col_name_to_index.get(cur.getNodeAttribute());
                 cur = cur.getChildren().get(
                     data_to_predict.getColumn(col_index).getValue(row)
                 );
             }
+
             // if is null, we'll classify the example with the most common classification
             if (cur == null) prediction.add(
                 getMostFrequentValue(Utility.ModelSelection.getTarget(this.training))
             );
-            // if cur is a leaf, therefore it already has predicted value
+            // if cur is a leaf, it already has predicted value
             else prediction.add(cur.getClassification());
         }
         
@@ -177,8 +196,7 @@ public class DecisionTree {
             System.out.println(cur);
             if (cur.isLeaf())
                 continue;
-            
-            System.out.println("Number of children: " + cur.getChildren().size());
+
             for (Object value : cur.getChildren().keySet())
                 queue.add(cur.getChild(value));
         }
@@ -201,6 +219,7 @@ public class DecisionTree {
         System.out.println(prefix);
     }
 
+    // public printing methods
     public void printDFS(){DFS(root);}
     public void printBFS(){BFS(root);}
     public void print(){formatPrint(root, "");}

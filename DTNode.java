@@ -10,14 +10,14 @@ public class DTNode {
         private Object classification;
         private int count;
 
-    // attributs parent / children wise
+    // attributs related to parent node and children nodes
     private DTNode parent;
     private Object parent_value;
     private HashMap<Object, DTNode> children;
 
     // Constructor ------------------------------------------
 
-    // constructor for non-leaf node
+    // constructor for non-leaf / internal node
     DTNode(String attribute, DTNode p, Object pv){
         node_attribute = attribute;
         classification = null;
@@ -39,6 +39,7 @@ public class DTNode {
 
     // Getters ------------------------------------------
 
+    // attriute-related
     public String getNodeAttribute(){return node_attribute;}
     public Object getClassification(){return classification;}
     public Object getCount(){return count;}
@@ -46,7 +47,10 @@ public class DTNode {
     public Object getParentValue(){return parent_value;}
     public HashMap<Object, DTNode> getChildren(){return children;}
 
+    // access specific child node
     public DTNode getChild(Object value){return children.get(value);}
+
+    // check if node is a leaf
     public boolean isLeaf(){return (children == null);}
 
     // Setters / Adders / Modifiers ------------------------------------------

@@ -51,25 +51,28 @@ public class Utility {
              */
             if (method.equals("sturges")){
                 long num_intervals = Math.round(3.322 * Math.log10(s.getSize()) + 1);
-    
+                
+                // get minimum, maximum and amplitude of the intervals
                 Double minimo = Double.MAX_VALUE, maximo = Double.MIN_VALUE;
                 for (Object obj : s.getDataList()){
                     minimo = Math.min(minimo, (Double)obj);
                     maximo = Math.max(maximo, (Double)obj);
                 }
-    
                 double amplitude = (maximo - minimo) / num_intervals;
                 amplitude = Math.round(amplitude * 100) / 100.0; // round to 2 decimals
                 
+                // clear the set of unique values
                 s.getUniqueValues().clear();
 
-                
+                // discretize each value in the series
                 for (int i = 0; i < s.getSize(); i++){
+                    // get the lower and upper limit
                     double value = (Double) s.getValue(i);
                     long k = Math.round((value - minimo) / amplitude);
                     double lim_inf = Math.round((minimo + k*amplitude) * 100) / 100.0;
                     double lim_sup = Math.round((minimo + (k+1)*amplitude) * 100) / 100.0;
                     
+                    // swap the value by its corresponding interval
                     String interval = "";
                     if (lim_inf <= minimo) interval = "<= " + lim_sup;
                     else if (maximo < lim_sup) interval = ">= " + lim_inf;
