@@ -74,7 +74,7 @@ public class Utility {
                     
                     // swap the value by its corresponding interval
                     String interval = "";
-                    if (value < minimo) interval = "< " + minimo;
+                    if (value <= minimo) interval = "<= " + minimo;
                     else if (value >= maximo) interval = ">= " + maximo;
                     else interval = "[" + lim_inf + " , " + lim_sup + "[";
                     s.setValue(i, interval);

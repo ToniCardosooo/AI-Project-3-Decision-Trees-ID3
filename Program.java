@@ -1,39 +1,59 @@
+import java.io.File;
+import java.util.Scanner;
+
 public class Program {
+
     public static void main(String[] args) {
-        /*
-         * if args[] length is 0, the program will print a message to please type a path for a CSV file
-         * 
-         * if args[] length is 1 (a path to a CSV file), it will train a Decision Tree on the given CSV file, and print the Decision Tree
-         * 
-         * if args[] length is 2 (both paths to CSV files), it will train a Decision Tree on the first given CSV file, print the Decision Tree,
-         * and print the predicted result of each example in the testing set
-         */
 
-        if (args.length == 0){
-            System.out.println("Please type a path to a CSV file in order to train a Decision Tree.");
-            System.out.println("Execute the program with following format:\n\n\tjava Program <training CSV filepath> (optional)<testing CSV filepath>\n");
-            return;
-        }
+        Scanner in = new Scanner(System.in);
 
-        // create dataframe, read the contents of the CSV file into it, and remove the ID column
+        // type the training set filepath
+        System.out.print("Type the training CSV filepath: ");
+        String training_filepath = in.next();
+
+        // create the DataFrame object with the given CSV file
         DataFrame training = new DataFrame();
-        training.readCSV(args[0]);
+        training.readCSV(training_filepath);
         training.removeColumn(0); // remove ID column
-        
+
         // processing continuous values to discrete ones
         for (int i = 0; i < training.getNumberColumns()-1; i++)
             Utility.Encoding.discretize(training.getColumn(i), "sturges");
-        
-        // create, train and print the Decision Tree
+
+        // create and train the Decision Tree
         DecisionTree dt = new DecisionTree();
         dt.fit(training);
-        dt.print();
+
+        // ask for which format the user wants to have the tree printed out
+        System.out.println("Choose the output format of the Decision Tree model:");
+        System.out.println("1) Project's worksheet format");
+        System.out.println("2) My custom format");
+        System.out.print("Choice: ");
+        int format = in.nextInt(); in.nextLine();
         
-        // if a testing set is given on the command line
-        if (args.length == 2){
+        // print the decision tree
+        if (format == 1) dt.print();
+        else dt.printFormated();
+
+        // ask if the user wants to predict classifications using the trained Decision Tree
+        System.out.println("Would you like to predict the classification of some examples?");
+        System.out.println("1) Yes");
+        System.out.println("2) No");
+        System.out.print("Choice: ");
+        int want_to_predict = in.nextInt(); in.nextLine();
+
+        // going to predict examples
+        if (want_to_predict == 1){
+
+            // type the training set filepath
+            System.out.print("\nType the testing CSV filepath: ");
+            String testing_filepath = in.next();
+            System.out.println();
+
             // read the contents of the testing set into a dataframe and process the continuous values with the same method as for the training set
             DataFrame testing = new DataFrame();
-            testing.readCSV(args[1]);
+            testing.readCSV(testing_filepath);
+
             // processing the continuous values
             for (int i = 0; i < testing.getNumberColumns()-1; i++)
                 Utility.Encoding.discretize(testing.getColumn(i), "sturges");
@@ -43,5 +63,8 @@ public class Program {
             System.out.println(prediction);
         }
 
+        System.out.println("Thank you for trying me out! :]");
+
+        in.close();
     }
 }

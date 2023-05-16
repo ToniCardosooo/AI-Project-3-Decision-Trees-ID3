@@ -178,30 +178,6 @@ public class DecisionTree {
 
     // Printing -------------------------------------
 
-    // print each tree node in a Depth-First-Search order
-    private void DFS(DTNode cur){
-        System.out.println(cur);
-        if (cur.getChildren() == null)
-            return;
-        for (Object value : cur.getChildren().keySet())
-            DFS(cur.getChild(value));
-    }
-
-    // print each tree node in a Breadth-First-Search order
-    private void BFS(DTNode root){
-        ArrayList<DTNode> queue = new ArrayList<DTNode>();
-        queue.add(root);
-        while (queue.size() != 0){
-            DTNode cur = queue.remove(0);
-            System.out.println(cur);
-            if (cur.isLeaf())
-                continue;
-
-            for (Object value : cur.getChildren().keySet())
-                queue.add(cur.getChild(value));
-        }
-    }
-
     // print the tree in a formated style for better understanding of its structure
     // follows the DFS order
     private void formatPrint(DTNode cur, String prefix){
@@ -219,8 +195,22 @@ public class DecisionTree {
         System.out.println(prefix);
     }
 
+    // print the tree following the format imposed by the project worksheet
+    // follows the DFS order
+    private void projectPrint(DTNode cur, String prefix){
+        if (cur.isLeaf()){
+            System.out.println(cur.getClassification().toString() + " (" + cur.getCount() + ")");
+            return;
+        }
+        System.out.println("\n" + prefix + "<" + cur.getNodeAttribute() + ">");
+        Set<Object> unique = cur.getChildren().keySet();
+        for (Object value : unique){
+            System.out.print(prefix + "    " + value + ": ");
+            projectPrint(cur.getChild(value), prefix + "        ");
+        }
+    }
+
     // public printing methods
-    public void printDFS(){DFS(root);}
-    public void printBFS(){BFS(root);}
-    public void print(){formatPrint(root, "");}
+    public void printFormated(){formatPrint(root, "");}
+    public void print(){projectPrint(root, ""); System.out.println();}
 }

@@ -24,13 +24,41 @@ Após a compilação de todos os ficheiros, é possível, finalmente, executá-l
 
 Para executar, o utilizador deve escrever no seu terminal / linha de comandos:
 
-`java Program <filepath to training CSV> (optional)<filepath to testing CSV>`
+`java Program`
 
-Se não for passado nenhum caminho relativo para um ficheiro `.csv`, o programa irá pedir para ser executado com a sintaxe acima definida.
+Aparecendo o seguinte:
 
-Caso seja passado apenas o caminho para um ficheiro `.csv`, o programa irá criar uma árvore de decisão treinada com base nos exemplos dentro do ficheiro, e irá imprimir esta.
+```
+Type the training CSV filepath: 
+```
 
-Paraa além disso, se for passado um segundo ficheiro `.csv`, o programa também irá tentar prever a classe dos exemplos neste ficheiro, usando a árvore de decisão criada a partir da aprendizagem com o primeiro ficheiro, imprimindo os resultados.
+O usuário deve escrever um caminho relativo ou absoluto para o ficheiro `.csv` que pretende usar para treinar o modelo de árvore de decisão (ex: `CSV/restaurant.csv`).
+
+De seguida, após o modelo ser treinado, aparece o seguinte prompt:
+
+```
+Choose the output format of the Decision Tree model:
+1) Project's worksheet format
+2) My custom format
+Choice: 
+```
+
+O user deve inserir `1` se pretende ver um print do modelo com base no formato exigido para a apresentação deste projeto, ou `2` para o print ter um formato feito por mim (a meu ver, mais legivel).
+
+Após o modelo de árvore de decisão ser impresso, o programa pergunta se o user quer realizar algum teste de classificação usando o modelo:
+
+```
+Would you like to predict the classification of some examples?
+1) Yes
+2) No
+Choice: 
+```
+
+Caso seja escolhido `1`, ou seja, o user pretende realizar um teste de classificação usando o modelo, aparece um último prompt a pedir a localização do ficheiro para teste:
+
+```
+Type the testing CSV filepath: 
+```
 
 ### Importante
 
