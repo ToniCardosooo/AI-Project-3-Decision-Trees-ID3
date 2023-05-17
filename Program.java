@@ -10,6 +10,7 @@ public class Program {
         // type the training set filepath
         System.out.print("Type the training CSV filepath: ");
         String training_filepath = in.next();
+        System.out.println();
 
         // create the DataFrame object with the given CSV file
         DataFrame training = new DataFrame();
