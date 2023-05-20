@@ -62,6 +62,6 @@ Type the testing CSV filepath:
 
 ### Importante
 
-É esperado que a primeira coluna de informação em qualquer ficheiro `.csv` seja uma coluna de índices.
+É esperado que a primeira coluna de informação em qualquer ficheiro `.csv` seja uma coluna de índices, assim como a primeira linha deve ser o header que identifica o nome de cada coluna.
 
-Caso contrário, o atributo associado à primeira coluna não será considerado para a criação do modelo da árvore de decisão.
+Caso contrário, o atributo associado à primeira coluna não será considerado para a criação do modelo da árvore de decisão e/ou a interpretação do atributo escolhido num dado nó do modelo de árvore de decisão poderá ser baixa.
