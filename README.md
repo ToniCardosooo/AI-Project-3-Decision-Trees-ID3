@@ -6,7 +6,7 @@
 
 Este projeto foi desenvolvido no âmbito da Unidade Curricular [Inteligência Artificial](https://sigarra.up.pt/fcup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=508303), durante o ano letivo 2022/2023, na Faculdade de Ciências da Universidade do Porto, pelo aluno António Cardoso.
 
-O seu principal objetivo é a implementação do algoritmo ID3, de construção de árvores de decisão.
+O seu objetivo principal é a implementação do algoritmo ID3, de construção de árvores de decisão.
 
 Para tal, foi escolhida a linguagem Java, devido à sua relação com Programação Orientada a Objetos, o facto de ser *strongly-typed*, o seu "*Garbage Collector*", entre outros motivos.
 
