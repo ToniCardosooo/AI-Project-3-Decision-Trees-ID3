@@ -1,8 +1,6 @@
 import java.io.BufferedReader;  
 import java.io.FileReader;  
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class DataFrame{
 
@@ -71,6 +69,7 @@ public class DataFrame{
             }
             num_rows = table.get(0).getSize();
 
+            br.close();
         }
         catch (Exception e) {
             e.printStackTrace();

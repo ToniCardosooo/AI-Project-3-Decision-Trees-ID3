@@ -92,6 +92,7 @@ public class DecisionTree {
         DTNode node = new DTNode(
             examples.getColumn(highest_gain_att_id).getName()
         );
+        
         // gathering the attribute's unique values
         HashSet<Object> highest_gain_att_values = unique_values_per_attribute.get(
             examples.getColumn(highest_gain_att_id).getName()
@@ -153,22 +154,31 @@ public class DecisionTree {
         Series prediction = new Series("Predicted Class");
         for (int row = 0; row < data_to_predict.getNumberRows(); row++){
             DTNode cur = root;
+            DataFrame cur_df = training;
 
             // go down the Decision Tree until the example is classified
             // if a decision is not made, it returns the most common target value in the training dataset
-            while (cur != null && !cur.isLeaf()){
+            while (!cur.isLeaf()){
                 int col_index = col_name_to_index.get(cur.getNodeAttribute());
                 cur = cur.getChildren().get(
                     data_to_predict.getColumn(col_index).getValue(row)
                 );
+                // if is null, we'll classify the example with the most common classification in the present set of training examples
+                if (cur == null) {
+                    prediction.add(
+                        getMostFrequentValue(Utility.ModelSelection.getTarget(cur_df))
+                    );
+                    break;
+                }
+                // else
+                cur_df = cur_df.filterBySpecificAttributeValue(
+                    col_index,
+                    data_to_predict.getColumn(col_index).getValue(row)
+                );
             }
 
-            // if is null, we'll classify the example with the most common classification
-            if (cur == null) prediction.add(
-                getMostFrequentValue(Utility.ModelSelection.getTarget(this.training))
-            );
             // if cur is a leaf, it already has predicted value
-            else prediction.add(cur.getClassification());
+            if (cur != null) prediction.add(cur.getClassification());
         }
         
         return prediction;

@@ -1,0 +1,66 @@
+Attribute: odor
+|-> Value: >= 6.0
+|	Classification: 1.0 (count = 256)
+|	
+|-> Value: [4.6 , 5.06[
+|	Attribute: spore-print-color
+|	|-> Value: [4.68 , 5.14[
+|	|	Classification: 1.0 (count = 72)
+|	|	
+|	|-> Value: [5.6 , 6.06[
+|	|	Classification: -1.0 (count = 2688)
+|	|	
+|	|-> Value: <= 1.0
+|	|	Classification: -1.0 (count = 2688)
+|	|	
+|	|-> Value: [1.92 , 2.38[
+|	|	Classification: -1.0 (count = 1296)
+|	|	
+|	|-> Value: [2.84 , 3.3[
+|	|	Classification: -1.0 (count = 1296)
+|	|	
+|	|-> Value: >= 7.0
+|	|	Attribute: cap-color
+|	|	|-> Value: [0.69 , 1.38[
+|	|	|	Classification: -1.0 (count = 32)
+|	|	|	
+|	|	|-> Value: [7.59 , 8.28[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [4.83 , 5.52[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [2.76 , 3.45[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [3.45 , 4.14[
+|	|	|	Classification: -1.0 (count = 48)
+|	|	|	
+|	|	|-> Value: >= 9.0
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [1.38 , 2.07[
+|	|	|	Classification: -1.0 (count = 96)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 96)
+|	|	|	
+|	|	
+|	
+|-> Value: [3.68 , 4.14[
+|	Classification: 1.0 (count = 36)
+|	
+|-> Value: [2.76 , 3.22[
+|	Classification: -1.0 (count = 400)
+|	
+|-> Value: [0.92 , 1.38[
+|	Classification: 1.0 (count = 192)
+|	
+|-> Value: <= 0.0
+|	Classification: -1.0 (count = 400)
+|	
+|-> Value: [1.84 , 2.3[
+|	Classification: 1.0 (count = 1584)
+|	
+
+Number of nodes: 22
