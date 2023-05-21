@@ -1,0 +1,4762 @@
+
+Attribute: plas
+|-> Value: [72.36 , 90.45[
+|	Attribute: age
+|	|-> Value: [42.8 , 48.25[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [53.7 , 59.15[
+|	|	Classification: 1.0 (count = 1)
+|	|	
+|	|-> Value: [48.25 , 53.7[
+|	|	Classification: -1.0 (count = 87)
+|	|	
+|	|-> Value: [26.45 , 31.9[
+|	|	Attribute: pedi
+|	|	|-> Value: <= 0.078
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: [1.55 , 1.76[
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: [0.08 , 0.29[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [0.29 , 0.5[
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [0.71 , 0.92[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [1.34 , 1.55[
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: [2.18 , 2.39[
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: >= 2.42
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: [1.13 , 1.34[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [0.92 , 1.13[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [1.97 , 2.18[
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: [0.5 , 0.71[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [1.76 , 1.97[
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	
+|	|-> Value: [70.05 , 75.5[
+|	|	Classification: -1.0 (count = 87)
+|	|	
+|	|-> Value: <= 21.0
+|	|	Classification: -1.0 (count = 10)
+|	|	
+|	|-> Value: [37.35 , 42.8[
+|	|	Classification: -1.0 (count = 11)
+|	|	
+|	|-> Value: [64.6 , 70.05[
+|	|	Classification: -1.0 (count = 87)
+|	|	
+|	|-> Value: >= 81.0
+|	|	Classification: -1.0 (count = 87)
+|	|	
+|	|-> Value: [21.0 , 26.45[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: -1.0 (count = 42)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: -1.0 (count = 16)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: -1.0 (count = 42)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: -1.0 (count = 42)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Classification: -1.0 (count = 13)
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: -1.0 (count = 42)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Classification: -1.0 (count = 5)
+|	|	|	
+|	|	
+|	|-> Value: [59.15 , 64.6[
+|	|	Classification: -1.0 (count = 87)
+|	|	
+|	|-> Value: [31.9 , 37.35[
+|	|	Attribute: pedi
+|	|	|-> Value: <= 0.078
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [1.55 , 1.76[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [0.08 , 0.29[
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [0.29 , 0.5[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [0.71 , 0.92[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [1.34 , 1.55[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [2.18 , 2.39[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: >= 2.42
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [1.13 , 1.34[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [0.92 , 1.13[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [1.97 , 2.18[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [0.5 , 0.71[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [1.76 , 1.97[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	
+|	
+|-> Value: [144.72 , 162.81[
+|	Attribute: age
+|	|-> Value: [42.8 , 48.25[
+|	|	Attribute: pedi
+|	|	|-> Value: <= 0.078
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [1.55 , 1.76[
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [0.08 , 0.29[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [0.29 , 0.5[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [0.71 , 0.92[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [1.34 , 1.55[
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [2.18 , 2.39[
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: >= 2.42
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [1.13 , 1.34[
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [0.92 , 1.13[
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [1.97 , 2.18[
+|	|	|	Classification: 1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [0.5 , 0.71[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [1.76 , 1.97[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [53.7 , 59.15[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [48.25 , 53.7[
+|	|	Classification: 1.0 (count = 8)
+|	|	
+|	|-> Value: [26.45 , 31.9[
+|	|	Attribute: insu
+|	|	|-> Value: [0.0 , 76.91[
+|	|	|	Classification: 1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [384.55 , 461.46[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [230.73 , 307.64[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [615.28 , 692.19[
+|	|	|	Classification: 1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [538.37 , 615.28[
+|	|	|	Classification: 1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: >= 846.0
+|	|	|	Classification: 1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [76.91 , 153.82[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [461.46 , 538.37[
+|	|	|	Classification: 1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [153.82 , 230.73[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 5)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 5)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 5)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 5)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Attribute: mass
+|	|	|	|	|-> Value: >= 67.1
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 5)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 5)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [692.19 , 769.1[
+|	|	|	Classification: 1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [307.64 , 384.55[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	
+|	|-> Value: [70.05 , 75.5[
+|	|	Classification: 1.0 (count = 46)
+|	|	
+|	|-> Value: <= 21.0
+|	|	Classification: 1.0 (count = 1)
+|	|	
+|	|-> Value: [37.35 , 42.8[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Attribute: insu
+|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 846.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [64.6 , 70.05[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Attribute: mass
+|	|	|	|	|-> Value: >= 67.1
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: >= 81.0
+|	|	Classification: 1.0 (count = 46)
+|	|	
+|	|-> Value: [21.0 , 26.45[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	
+|	|-> Value: [59.15 , 64.6[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [31.9 , 37.35[
+|	|	Attribute: mass
+|	|	|-> Value: >= 67.1
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [12.2 , 18.3[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [48.8 , 54.9[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [42.7 , 48.8[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [30.5 , 36.6[
+|	|	|	Attribute: insu
+|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 846.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [36.6 , 42.7[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [24.4 , 30.5[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [18.3 , 24.4[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [54.9 , 61.0[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	
+|	
+|-> Value: [36.18 , 54.27[
+|	Classification: -1.0 (count = 1)
+|	
+|-> Value: [108.54 , 126.63[
+|	Attribute: mass
+|	|-> Value: >= 67.1
+|	|	Classification: -1.0 (count = 123)
+|	|	
+|	|-> Value: [12.2 , 18.3[
+|	|	Classification: -1.0 (count = 123)
+|	|	
+|	|-> Value: [48.8 , 54.9[
+|	|	Classification: 1.0 (count = 2)
+|	|	
+|	|-> Value: [42.7 , 48.8[
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	
+|	|-> Value: [30.5 , 36.6[
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: -1.0 (count = 38)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Attribute: skin
+|	|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	|	Attribute: insu
+|	|	|	|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: >= 846.0
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Attribute: insu
+|	|	|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: >= 846.0
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	Attribute: pedi
+|	|	|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: -1.0 (count = 38)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: -1.0 (count = 38)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 15)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Attribute: pedi
+|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 15)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 15)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 15)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Attribute: insu
+|	|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 846.0
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 15)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: 1.0 (count = 6)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [36.6 , 42.7[
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Classification: -1.0 (count = 7)
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: -1.0 (count = 17)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: -1.0 (count = 17)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: -1.0 (count = 17)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: -1.0 (count = 17)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Classification: -1.0 (count = 17)
+|	|	|	
+|	|	
+|	|-> Value: [24.4 , 30.5[
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Attribute: pedi
+|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	Attribute: skin
+|	|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	Attribute: insu
+|	|	|	|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: >= 846.0
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	Classification: -1.0 (count = 5)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: -1.0 (count = 40)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Classification: -1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Attribute: insu
+|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 846.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: -1.0 (count = 40)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 11)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [18.3 , 24.4[
+|	|	Classification: -1.0 (count = 19)
+|	|	
+|	|-> Value: <= 0.0
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	
+|	|-> Value: [54.9 , 61.0[
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	
+|-> Value: [162.81 , 180.9[
+|	Attribute: age
+|	|-> Value: [42.8 , 48.25[
+|	|	Classification: 1.0 (count = 4)
+|	|	
+|	|-> Value: [53.7 , 59.15[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [48.25 , 53.7[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Attribute: mass
+|	|	|	|-> Value: >= 67.1
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [26.45 , 31.9[
+|	|	Classification: 1.0 (count = 7)
+|	|	
+|	|-> Value: [70.05 , 75.5[
+|	|	Classification: 1.0 (count = 41)
+|	|	
+|	|-> Value: <= 21.0
+|	|	Classification: 1.0 (count = 1)
+|	|	
+|	|-> Value: [37.35 , 42.8[
+|	|	Classification: 1.0 (count = 6)
+|	|	
+|	|-> Value: [64.6 , 70.05[
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	|-> Value: >= 81.0
+|	|	Classification: 1.0 (count = 41)
+|	|	
+|	|-> Value: [21.0 , 26.45[
+|	|	Attribute: insu
+|	|	|-> Value: [0.0 , 76.91[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [384.55 , 461.46[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [230.73 , 307.64[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [615.28 , 692.19[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [538.37 , 615.28[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: >= 846.0
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [76.91 , 153.82[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [461.46 , 538.37[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [153.82 , 230.73[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [692.19 , 769.1[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [307.64 , 384.55[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	
+|	|-> Value: [59.15 , 64.6[
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	|-> Value: [31.9 , 37.35[
+|	|	Attribute: pedi
+|	|	|-> Value: <= 0.078
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [1.55 , 1.76[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [0.08 , 0.29[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [0.29 , 0.5[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [0.71 , 0.92[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [1.34 , 1.55[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [2.18 , 2.39[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: >= 2.42
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [1.13 , 1.34[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [0.92 , 1.13[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [1.97 , 2.18[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [0.5 , 0.71[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [1.76 , 1.97[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	
+|	
+|-> Value: [126.63 , 144.72[
+|	Attribute: mass
+|	|-> Value: >= 67.1
+|	|	Classification: 1.0 (count = 1)
+|	|	
+|	|-> Value: [12.2 , 18.3[
+|	|	Classification: -1.0 (count = 67)
+|	|	
+|	|-> Value: [48.8 , 54.9[
+|	|	Classification: 1.0 (count = 2)
+|	|	
+|	|-> Value: [42.7 , 48.8[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: 1.0 (count = 6)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Attribute: age
+|	|	|	|-> Value: [42.8 , 48.25[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [53.7 , 59.15[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [48.25 , 53.7[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [26.45 , 31.9[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [70.05 , 75.5[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 21.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [37.35 , 42.8[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [64.6 , 70.05[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 81.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [21.0 , 26.45[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [59.15 , 64.6[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [31.9 , 37.35[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [30.5 , 36.6[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 23)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: 1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: 1.0 (count = 23)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: 1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: 1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: 1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: 1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Attribute: age
+|	|	|	|	|-> Value: [42.8 , 48.25[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [53.7 , 59.15[
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [48.25 , 53.7[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [26.45 , 31.9[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [70.05 , 75.5[
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 21.0
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [37.35 , 42.8[
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [64.6 , 70.05[
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 81.0
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [21.0 , 26.45[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [59.15 , 64.6[
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [31.9 , 37.35[
+|	|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: 1.0 (count = 23)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: 1.0 (count = 23)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Attribute: age
+|	|	|	|-> Value: [42.8 , 48.25[
+|	|	|	|	Attribute: pedi
+|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [53.7 , 59.15[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [48.25 , 53.7[
+|	|	|	|	Classification: -1.0 (count = 10)
+|	|	|	|	
+|	|	|	|-> Value: [26.45 , 31.9[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [70.05 , 75.5[
+|	|	|	|	Classification: -1.0 (count = 10)
+|	|	|	|	
+|	|	|	|-> Value: <= 21.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [37.35 , 42.8[
+|	|	|	|	Classification: -1.0 (count = 10)
+|	|	|	|	
+|	|	|	|-> Value: [64.6 , 70.05[
+|	|	|	|	Classification: -1.0 (count = 10)
+|	|	|	|	
+|	|	|	|-> Value: >= 81.0
+|	|	|	|	Classification: -1.0 (count = 10)
+|	|	|	|	
+|	|	|	|-> Value: [21.0 , 26.45[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [59.15 , 64.6[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [31.9 , 37.35[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [36.6 , 42.7[
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: 1.0 (count = 12)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: 1.0 (count = 12)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: 1.0 (count = 12)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: 1.0 (count = 12)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Attribute: pedi
+|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [24.4 , 30.5[
+|	|	Attribute: age
+|	|	|-> Value: [42.8 , 48.25[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [53.7 , 59.15[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [48.25 , 53.7[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [26.45 , 31.9[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Attribute: skin
+|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [70.05 , 75.5[
+|	|	|	Classification: -1.0 (count = 27)
+|	|	|	
+|	|	|-> Value: <= 21.0
+|	|	|	Classification: -1.0 (count = 5)
+|	|	|	
+|	|	|-> Value: [37.35 , 42.8[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [64.6 , 70.05[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 81.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [21.0 , 26.45[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 7)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [59.15 , 64.6[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [31.9 , 37.35[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [18.3 , 24.4[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: <= 0.0
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	|-> Value: [54.9 , 61.0[
+|	|	Classification: -1.0 (count = 67)
+|	|	
+|	
+|-> Value: <= 0.0
+|	Attribute: mass
+|	|-> Value: >= 67.1
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	|-> Value: [12.2 , 18.3[
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	|-> Value: [48.8 , 54.9[
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	|-> Value: [42.7 , 48.8[
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	|-> Value: [30.5 , 36.6[
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	|-> Value: [36.6 , 42.7[
+|	|	Classification: 1.0 (count = 2)
+|	|	
+|	|-> Value: [24.4 , 30.5[
+|	|	Classification: -1.0 (count = 2)
+|	|	
+|	|-> Value: [18.3 , 24.4[
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	|-> Value: <= 0.0
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	|-> Value: [54.9 , 61.0[
+|	|	Classification: -1.0 (count = 3)
+|	|	
+|	
+|-> Value: [54.27 , 72.36[
+|	Classification: -1.0 (count = 15)
+|	
+|-> Value: >= 199.0
+|	Classification: 1.0 (count = 1)
+|	
+|-> Value: [180.9 , 198.99[
+|	Attribute: pedi
+|	|-> Value: <= 0.078
+|	|	Classification: 1.0 (count = 34)
+|	|	
+|	|-> Value: [1.55 , 1.76[
+|	|	Classification: 1.0 (count = 34)
+|	|	
+|	|-> Value: [0.08 , 0.29[
+|	|	Classification: 1.0 (count = 10)
+|	|	
+|	|-> Value: [0.29 , 0.5[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: 1.0 (count = 9)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	
+|	|-> Value: [0.71 , 0.92[
+|	|	Classification: 1.0 (count = 3)
+|	|	
+|	|-> Value: [1.34 , 1.55[
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	|-> Value: [2.18 , 2.39[
+|	|	Classification: -1.0 (count = 1)
+|	|	
+|	|-> Value: >= 2.42
+|	|	Classification: 1.0 (count = 34)
+|	|	
+|	|-> Value: [1.13 , 1.34[
+|	|	Classification: 1.0 (count = 3)
+|	|	
+|	|-> Value: [0.92 , 1.13[
+|	|	Classification: 1.0 (count = 1)
+|	|	
+|	|-> Value: [1.97 , 2.18[
+|	|	Classification: 1.0 (count = 34)
+|	|	
+|	|-> Value: [0.5 , 0.71[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Classification: 1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: 1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [1.76 , 1.97[
+|	|	Classification: 1.0 (count = 34)
+|	|	
+|	
+|-> Value: [90.45 , 108.54[
+|	Attribute: age
+|	|-> Value: [42.8 , 48.25[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Attribute: insu
+|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 846.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: -1.0 (count = 10)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	
+|	|-> Value: [53.7 , 59.15[
+|	|	Classification: -1.0 (count = 4)
+|	|	
+|	|-> Value: [48.25 , 53.7[
+|	|	Attribute: mass
+|	|	|-> Value: >= 67.1
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [12.2 , 18.3[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [48.8 , 54.9[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [42.7 , 48.8[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [30.5 , 36.6[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [36.6 , 42.7[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [24.4 , 30.5[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [18.3 , 24.4[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [54.9 , 61.0[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	
+|	|-> Value: [26.45 , 31.9[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: -1.0 (count = 28)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Attribute: mass
+|	|	|	|	|-> Value: >= 67.1
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	|	Attribute: skin
+|	|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: 1.0 (count = 4)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: -1.0 (count = 28)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 12)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 12)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 12)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: -1.0 (count = 12)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 12)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Attribute: mass
+|	|	|	|	|-> Value: >= 67.1
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	|	Attribute: insu
+|	|	|	|	|	|-> Value: [0.0 , 76.91[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [384.55 , 461.46[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [230.73 , 307.64[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [615.28 , 692.19[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [538.37 , 615.28[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: >= 846.0
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [76.91 , 153.82[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [461.46 , 538.37[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [153.82 , 230.73[
+|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	Attribute: pedi
+|	|	|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [692.19 , 769.1[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [307.64 , 384.55[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	
+|	|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: -1.0 (count = 28)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: -1.0 (count = 28)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Attribute: skin
+|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: >= 99.0
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [70.05 , 75.5[
+|	|	Classification: -1.0 (count = 157)
+|	|	
+|	|-> Value: <= 21.0
+|	|	Classification: -1.0 (count = 21)
+|	|	
+|	|-> Value: [37.35 , 42.8[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Classification: -1.0 (count = 3)
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: -1.0 (count = 8)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Attribute: pedi
+|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	
+|	|-> Value: [64.6 , 70.05[
+|	|	Classification: -1.0 (count = 2)
+|	|	
+|	|-> Value: >= 81.0
+|	|	Classification: -1.0 (count = 157)
+|	|	
+|	|-> Value: [21.0 , 26.45[
+|	|	Attribute: insu
+|	|	|-> Value: [0.0 , 76.91[
+|	|	|	Attribute: pres
+|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	Attribute: pedi
+|	|	|	|	|-> Value: <= 0.078
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 2.42
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	|	Attribute: skin
+|	|	|	|	|	|-> Value: [63.0 , 72.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [36.0 , 45.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [0.0 , 9.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: >= 99.0
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [9.0 , 18.0[
+|	|	|	|	|	|	Attribute: mass
+|	|	|	|	|	|	|-> Value: >= 67.1
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	|	|	
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [18.0 , 27.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [45.0 , 54.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [27.0 , 36.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: [54.0 , 63.0[
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	|	Classification: 1.0 (count = 2)
+|	|	|	|	|	|	
+|	|	|	|	|	
+|	|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 122.0
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 13)
+|	|	|	|	
+|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [384.55 , 461.46[
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	|-> Value: [230.73 , 307.64[
+|	|	|	Classification: -1.0 (count = 2)
+|	|	|	
+|	|	|-> Value: [615.28 , 692.19[
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	|-> Value: [538.37 , 615.28[
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	|-> Value: >= 846.0
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	|-> Value: [76.91 , 153.82[
+|	|	|	Attribute: mass
+|	|	|	|-> Value: >= 67.1
+|	|	|	|	Classification: -1.0 (count = 23)
+|	|	|	|	
+|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	Classification: -1.0 (count = 23)
+|	|	|	|	
+|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	Classification: -1.0 (count = 23)
+|	|	|	|	
+|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	Classification: -1.0 (count = 9)
+|	|	|	|	
+|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	Classification: -1.0 (count = 6)
+|	|	|	|	
+|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	Classification: -1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 23)
+|	|	|	|	
+|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	Classification: -1.0 (count = 23)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [461.46 , 538.37[
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	|-> Value: [153.82 , 230.73[
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 24)
+|	|	|	
+|	|	|-> Value: [692.19 , 769.1[
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	|-> Value: [307.64 , 384.55[
+|	|	|	Classification: -1.0 (count = 66)
+|	|	|	
+|	|	
+|	|-> Value: [59.15 , 64.6[
+|	|	Attribute: pres
+|	|	|-> Value: [110.9 , 121.99[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [88.72 , 99.81[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [55.45 , 66.54[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [99.81 , 110.9[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [44.36 , 55.45[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: >= 122.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [66.54 , 77.63[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [33.27 , 44.36[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [22.18 , 33.27[
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Classification: -1.0 (count = 1)
+|	|	|	
+|	|	|-> Value: [77.63 , 88.72[
+|	|	|	Classification: 1.0 (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [31.9 , 37.35[
+|	|	Attribute: skin
+|	|	|-> Value: [63.0 , 72.0[
+|	|	|	Classification: -1.0 (count = 14)
+|	|	|	
+|	|	|-> Value: [36.0 , 45.0[
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [0.0 , 9.0[
+|	|	|	Classification: -1.0 (count = 14)
+|	|	|	
+|	|	|-> Value: >= 99.0
+|	|	|	Classification: -1.0 (count = 14)
+|	|	|	
+|	|	|-> Value: [9.0 , 18.0[
+|	|	|	Classification: -1.0 (count = 14)
+|	|	|	
+|	|	|-> Value: [18.0 , 27.0[
+|	|	|	Classification: -1.0 (count = 4)
+|	|	|	
+|	|	|-> Value: [45.0 , 54.0[
+|	|	|	Classification: -1.0 (count = 14)
+|	|	|	
+|	|	|-> Value: [27.0 , 36.0[
+|	|	|	Attribute: mass
+|	|	|	|-> Value: >= 67.1
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [12.2 , 18.3[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [48.8 , 54.9[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [42.7 , 48.8[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [30.5 , 36.6[
+|	|	|	|	Classification: -1.0 (count = 2)
+|	|	|	|	
+|	|	|	|-> Value: [36.6 , 42.7[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [24.4 , 30.5[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [18.3 , 24.4[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: <= 0.0
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	|-> Value: [54.9 , 61.0[
+|	|	|	|	Classification: -1.0 (count = 4)
+|	|	|	|	
+|	|	|	
+|	|	|-> Value: [54.0 , 63.0[
+|	|	|	Classification: -1.0 (count = 14)
+|	|	|	
+|	|	|-> Value: <= 0.0
+|	|	|	Attribute: pedi
+|	|	|	|-> Value: <= 0.078
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [1.55 , 1.76[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.08 , 0.29[
+|	|	|	|	Attribute: pres
+|	|	|	|	|-> Value: [110.9 , 121.99[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [88.72 , 99.81[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [55.45 , 66.54[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [99.81 , 110.9[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [44.36 , 55.45[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: >= 122.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [66.54 , 77.63[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [33.27 , 44.36[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [22.18 , 33.27[
+|	|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: <= 0.0
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	|-> Value: [77.63 , 88.72[
+|	|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	|	
+|	|	|	|	
+|	|	|	|-> Value: [0.29 , 0.5[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [0.71 , 0.92[
+|	|	|	|	Classification: -1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.34 , 1.55[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [2.18 , 2.39[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: >= 2.42
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [1.13 , 1.34[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.92 , 1.13[
+|	|	|	|	Classification: 1.0 (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: [1.97 , 2.18[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [0.5 , 0.71[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	|-> Value: [1.76 , 1.97[
+|	|	|	|	Classification: 1.0 (count = 3)
+|	|	|	|	
+|	|	|	
+|	|	
+|	
+
+Number of nodes: 1587
