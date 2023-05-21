@@ -10,13 +10,15 @@ public class DecisionTree {
 
     private DTNode root;
     private DataFrame training;
+    private int num_nodes;
 
     public DTNode getRoot(){return root;}
     public DataFrame getTrainingDataFrame(){return training;}
+    public int getNumberNodes(){return num_nodes;}
 
     // Constructor -------------------------------------
 
-    DecisionTree(){root = null; training = null;}
+    DecisionTree(){root = null; training = null; num_nodes = 0;}
 
     // Methods -------------------------------------
 
@@ -41,14 +43,12 @@ public class DecisionTree {
 
     // returns a leaf node whose classification is equal to the
     // most frequent target classification in the DataFrame data
-    private DTNode pluralityValue(DataFrame data, DTNode parent_node, Object parent_value){
+    private DTNode pluralityValue(DataFrame data){
         Series target = Utility.ModelSelection.getTarget(data);
         Object classification = getMostFrequentValue(target);
         return new DTNode(
             classification,
-            Collections.frequency(target.getDataList(), classification),
-            parent_node,
-            parent_value
+            Collections.frequency(target.getDataList(), classification)
         );
     }
 
@@ -68,19 +68,21 @@ public class DecisionTree {
         return highest_gain_att_id;
     }
 
-    private DTNode learnDecisionTree(DataFrame examples, ArrayList<Integer> attributes_id, DataFrame parent_examples, DTNode parent_node, Object parent_value, HashMap<String, HashSet<Object>> unique_values_per_attribute){
+    private DTNode learnDecisionTree(DataFrame examples, ArrayList<Integer> attributes_id, DataFrame parent_examples, HashMap<String, HashSet<Object>> unique_values_per_attribute){
+        num_nodes++;
+
         // if examples is empty
         if (examples.getNumberRows() == 0)
-            return pluralityValue(parent_examples, parent_node, parent_value);
+            return pluralityValue(parent_examples);
 
         // if there are no attributes, only target
         if (attributes_id.size() == 0)
-            return pluralityValue(examples, parent_node, parent_value);
+            return pluralityValue(examples);
 
         // if all examples have the same target value
         Series example_target = Utility.ModelSelection.getTarget(examples);
         if (example_target.getUniqueValues().size() == 1)
-            return pluralityValue(examples, parent_node, parent_value);
+            return pluralityValue(examples);
         
         // else
         // (recursive case)
@@ -88,9 +90,7 @@ public class DecisionTree {
         int highest_gain_att_id = getAttributeHighestGain(examples, attributes_id);
         // new internal tree node where conditional attribute is the attribute which has higest information gain
         DTNode node = new DTNode(
-            examples.getColumn(highest_gain_att_id).getName(),
-            parent_node,
-            parent_value
+            examples.getColumn(highest_gain_att_id).getName()
         );
         // gathering the attribute's unique values
         HashSet<Object> highest_gain_att_values = unique_values_per_attribute.get(
@@ -110,8 +110,6 @@ public class DecisionTree {
                 exs,
                 new_attributes_id,
                 examples,
-                node,
-                value,
                 unique_values_per_attribute
             );
             node.addChild(value, child);
@@ -135,7 +133,7 @@ public class DecisionTree {
             );
         }
         
-        root = learnDecisionTree(fitting_data, attributes_id, null, null, null, unique_values_per_attribute);
+        root = learnDecisionTree(fitting_data, attributes_id, null, unique_values_per_attribute);
     }
 
     // Predict method -------------------------------------
@@ -211,6 +209,6 @@ public class DecisionTree {
     }
 
     // public printing methods
-    public void printFormated(){formatPrint(root, "");}
+    public void printFormated(){formatPrint(root, ""); System.out.println("Number of nodes: " + num_nodes);}
     public void print(){projectPrint(root, ""); System.out.println();}
 }

@@ -19,7 +19,7 @@ public class Program {
 
         // processing continuous values to discrete ones
         for (int i = 0; i < training.getNumberColumns()-1; i++)
-            Utility.Encoding.discretize(training.getColumn(i), "sturges");
+            Utility.Encoding.discretize(training.getColumn(i));
 
         // create and train the Decision Tree
         DecisionTree dt = new DecisionTree();
@@ -33,11 +33,12 @@ public class Program {
         int format = in.nextInt(); in.nextLine();
         
         // print the decision tree
+        System.out.println();
         if (format == 1) dt.print();
         else dt.printFormated();
 
         // ask if the user wants to predict classifications using the trained Decision Tree
-        System.out.println("Would you like to predict the classification of some examples?");
+        System.out.println("\nWould you like to predict the classification of some examples?");
         System.out.println("1) Yes");
         System.out.println("2) No");
         System.out.print("Choice: ");
@@ -57,7 +58,7 @@ public class Program {
 
             // processing the continuous values
             for (int i = 0; i < testing.getNumberColumns()-1; i++)
-                Utility.Encoding.discretize(testing.getColumn(i), "sturges");
+                Utility.Encoding.discretize(testing.getColumn(i));
 
             // making the predictions using the Decision Tree and printing them
             Series prediction = dt.predict(testing);
