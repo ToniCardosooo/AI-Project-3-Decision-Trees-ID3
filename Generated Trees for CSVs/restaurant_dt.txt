@@ -1,0 +1,37 @@
+
+Attribute: Pat
+|-> Value: Some
+|	Classification: Yes (count = 4)
+|	
+|-> Value: None
+|	Classification: No (count = 2)
+|	
+|-> Value: Full
+|	Attribute: Hun
+|	|-> Value: No
+|	|	Classification: No (count = 2)
+|	|	
+|	|-> Value: Yes
+|	|	Attribute: Type
+|	|	|-> Value: Burger
+|	|	|	Classification: Yes (count = 1)
+|	|	|	
+|	|	|-> Value: Italian
+|	|	|	Classification: No (count = 1)
+|	|	|	
+|	|	|-> Value: French
+|	|	|	Classification: Yes (count = 2)
+|	|	|	
+|	|	|-> Value: Thai
+|	|	|	Attribute: Fri
+|	|	|	|-> Value: No
+|	|	|	|	Classification: No (count = 1)
+|	|	|	|	
+|	|	|	|-> Value: Yes
+|	|	|	|	Classification: Yes (count = 1)
+|	|	|	|	
+|	|	|	
+|	|	
+|	
+
+Number of nodes: 12

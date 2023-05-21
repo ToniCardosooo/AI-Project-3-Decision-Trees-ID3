@@ -1,0 +1,76 @@
+
+Attribute: Temp
+|-> Value: [64.0 , 68.2[
+|	Attribute: Humidity
+|	|-> Value: >= 96.0
+|	|	Classification: no (count = 1)
+|	|	
+|	|-> Value: [65.0 , 71.2[
+|	|	Classification: no (count = 1)
+|	|	
+|	|-> Value: [83.6 , 89.8[
+|	|	Classification: yes (count = 1)
+|	|	
+|	|-> Value: <= 65.0
+|	|	Classification: yes (count = 1)
+|	|	
+|	|-> Value: [89.8 , 96.0[
+|	|	Classification: yes (count = 1)
+|	|	
+|	|-> Value: [77.4 , 83.6[
+|	|	Classification: yes (count = 1)
+|	|	
+|	|-> Value: [71.2 , 77.4[
+|	|	Classification: yes (count = 1)
+|	|	
+|	
+|-> Value: [68.2 , 72.4[
+|	Attribute: Humidity
+|	|-> Value: >= 96.0
+|	|	Classification: yes (count = 1)
+|	|	
+|	|-> Value: [65.0 , 71.2[
+|	|	Classification: yes (count = 1)
+|	|	
+|	|-> Value: [83.6 , 89.8[
+|	|	Classification: yes (count = 3)
+|	|	
+|	|-> Value: <= 65.0
+|	|	Classification: yes (count = 3)
+|	|	
+|	|-> Value: [89.8 , 96.0[
+|	|	Attribute: Weather
+|	|	|-> Value: rainy
+|	|	|	Classification: no (count = 1)
+|	|	|	
+|	|	|-> Value: overcast
+|	|	|	Classification: yes (count = 1)
+|	|	|	
+|	|	|-> Value: sunny
+|	|	|	Classification: no (count = 1)
+|	|	|	
+|	|	
+|	|-> Value: [77.4 , 83.6[
+|	|	Classification: yes (count = 3)
+|	|	
+|	|-> Value: [71.2 , 77.4[
+|	|	Classification: yes (count = 3)
+|	|	
+|	
+|-> Value: <= 64.0
+|	Classification: yes (count = 1)
+|	
+|-> Value: >= 85.0
+|	Classification: no (count = 1)
+|	
+|-> Value: [72.4 , 76.6[
+|	Classification: yes (count = 2)
+|	
+|-> Value: [80.8 , 85.0[
+|	Classification: yes (count = 2)
+|	
+|-> Value: [76.6 , 80.8[
+|	Classification: no (count = 1)
+|	
+
+Number of nodes: 25
